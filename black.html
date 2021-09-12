@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TS Launcher</title>
+  <link rel="stylesheet" href="launcher.css">
+  <link rel="shortcut icon" type="image/png" href="kk.png">
+
+</head>
+
+
+<body>
+
+<html lang="en">
+<head>
+  
+    <meta charset="utf-8" />
+    <title>Table Style</title>
+    <meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width=device-width;">
+<script src="jQuery.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //Disable full page
+            $("body").on("contextmenu",function(e){
+                return false;
+            });
+
+            //Disable part of page
+            $("#id").on("contextmenu",function(e){
+                return false;
+            });
+        });
+        </script>
+        
+        
+        
+</body>
+<head>
+ <div class="background">
+
+  <div class="padding-top"></div>
+<table class="table-fill">
+<thead>
+<tr>
+<th class="text-left-color"><b>SERVER&nbsp;NAME</b></th>
+<th class="text-left-color"><b>CONNECT</b></th>
+<th class="text-left-color"><b>DOWNLOAD TS</b></th>
+<th class="text-left-color"><b>TEAM&nbsp;SPEAK</b></th>
+<th class="text-left-color"><b>PLUGIN : 1.5</b></th>
+<th class="text-left-color"><b>DISCORD</b></th>
+</tr>
+</thead>
+<tbody class="table-hover">
+            <tr>
+<td class="text-left"><b>TUNISIAN SKYLINE</b></td>
+<td class="text-left"><a href="fivem://connect/cfx.re/join/a6qmxz" class="join-btn"><b>JOIN SERVEUR</b></a></td>
+<td class="text-left"><a href="https://www.teamspeak.com/en/downloads/#" target="blank_" class="join-btn"><b>LINK TEAM SPEAK</b></a></td>
+<td class="text-left"><a href="ts3server://vikingsroleplay.ts3miki.ovh" class="join-btn"><b>JOIN TEAMSPEAK</b></a></td>
+<td class="text-left"><a href="https://github.com/Itokoyamato/TokoVOIP_TS3/releases/download/v1.2.5-v1.3.5/tokovoip_1_2_5.ts3_plugin" class="join-btn"><b>DOWNLOAD</b></a></td>
+<td class="text-left"><a href="https://discord.gg/tunisianskyline" target="blank_" class="join-btn"><b>JOIN NOW</b></a></td> 
+</tr>
+
+</tbody>
+</table>
+</div>
+  </body>
+</body>
+<script> 
+  document.onmousedown = disableclick;
+    status = "Right Click Disabled";
+    function disableclick(e)
+    {
+      if(event.button == 2)
+      {
+        alert(status);
+        return false;
+      }
+    }
+</script>
+        }
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+        document.onkeydown = function(e) {
+                if (e.ctrlKey && 
+                    (e.keyCode === 67 || 
+                     e.keyCode === 86 || 
+                     e.keyCode === 85 || 
+                     e.keyCode === 117)) {
+                    return false;
+                } else {
+                    return true;
+                }
+        };
+        $(document).keypress("u",function(e) {
+          if(e.ctrlKey)
+          {
+        return false;
+        }
+        else
+        {
+        return true;
+        }
+        });
+        </script> 
+        <script>
+          $(document).keydown(function (event) {
+            if (event.keyCode == 123) { // Prevent F12
+                return false;
+            } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) { // Prevent Ctrl+Shift+I        
+                return false;
+            }
+        }); </script>
+          </script>
+        <script>
+          $(document).keydown(function (event) {
+            if (event.keyCode == 18) { // Prevent F12
+                return false;
+            } else if (event.keyCode == 18) { // Prevent Ctrl+Shift+I        
+                return false;
+            }
+          }); </script>
+</html>
